@@ -1,18 +1,14 @@
-import {
-  RecoilRoot,
-  atom,
-  selector,
-  useRecoilState,
-  useRecoilValue,
-} from "recoil";
+import { RecoilRoot } from "recoil";
 import CharCounter from "./components/characterCounter";
-import Todo from "./components/Counter";
+import Todo from "./components/todo";
+import Counter from "./components/Counter";
 
 export default function Home() {
   return (
     <RecoilRoot>
-      <Todo />
+      <Counter />
       <CharCounter />
+      <Todo />
     </RecoilRoot>
   );
 }
