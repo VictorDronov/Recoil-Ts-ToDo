@@ -13,7 +13,7 @@ const Todo: React.FC<Props> = () => {
 
   return (
     <div>
-      <h2>{value}</h2>
+      <h2>Count: {value}</h2>
       <button onClick={increment}>+</button>
       <button onClick={decrement}>-</button>
     </div>

@@ -14,3 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.header {
+  display: flex;
+  padding: 0px 10px;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  color: cornflowerblue;
+}

@@ -23,7 +23,7 @@ const CharCounter: React.FC<{}> = () => {
   const charCount = useRecoilValue(charCountState);
   return (
     <h2>
-      <span>count: {charCount}</span>
+      <span>Word Count: {charCount}</span>
       <input
         type="text"
         value={char}
